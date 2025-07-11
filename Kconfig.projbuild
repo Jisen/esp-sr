@@ -154,6 +154,10 @@ menu "Load Multiple Wake Words (WakeNet9)"
     bool "Hi,Lily/Hi,莉莉 (wn9_hilili_tts)"
     default False
 
+    config SR_WN_WN9_HILUKI
+    bool "Hi/嗨 (wn9_hiluki_)"
+    default False
+
     config SR_WN_WN9_HITELLY_TTS
     bool "Hi,Telly/Hi,泰力 (wn9_hitelly_tts)"
     default False
