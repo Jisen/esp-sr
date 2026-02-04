@@ -88,8 +88,16 @@ menu "Load Multiple Wake Words (WakeNet9)"
     bool "小爱同学 (wn9_xiaoaitongxue)"
     default False
 
+    config SR_WN_WN9L_XIAOAITONGXUE
+    bool "小爱同学 (wn9l_xiaoaitongxue)"
+    default False
+
     config SR_WN_WN9_NIHAOXIAOZHI_TTS
     bool "你好小智 (wn9_nihaoxiaozhi_tts)"
+    default False
+
+    config SR_WN_WN9L_NIHAOXIAOZHI_TTS3
+    bool "你好小智 (wn9l_nihaoxiaozhi_tts3)"
     default False
 
     config SR_WN_WN9_ALEXA
@@ -158,6 +166,23 @@ menu "Load Multiple Wake Words (WakeNet9)"
 
     config SR_WN_WN9_BLUECHIP_TTS2
     bool "Blue Chip (wn9_bluechip_tts2)"
+    default False
+
+    config SR_WN_WN9_HIANDY_TTS2
+    bool "Hi,Andy (wn9_hiandy_tts2)"
+    default False
+
+    config SR_WN_WN9_HEYIVY_TTS2
+    bool "Hey,Ivy (wn9_heyivy_tts2)"
+    default False
+
+
+    config SR_WN_WN9_HISTACKCHAN_TTS3
+    bool "Hi,Stack Chan (wn9_histackchan_tts3)"
+    default False
+
+    config SR_WN_WN9_HEYKIRA_TTS3
+    bool "Hey,Kira (wn9_heykira_tts3)"
     default False
 
     config SR_WN_WN9_XIAOLONGXIAOLONG_TTS
@@ -256,12 +281,24 @@ menu "Load Multiple Wake Words (WakeNet9)"
     bool "你好小安 (wn9_nihaoxiaoan_tts2)"
     default False
 
-    config SR_WN_WN9_HIANDY_TTS2
-    bool "Hi,Andy (wn9_hiandy_tts2)"
-    default False
-
     config SR_WN_WN9_NI3HAO3XIAO3MAI4_TTS2
     bool "你好小脉 (wn9_ni3hao3xiao3mai4_tts2)"
+    default False
+
+    config SR_WN_WN9_NI3HAO3XIAO3RUI4_TTS3
+    bool "你好小瑞 (wn9_ni3hao3xiao3rui4_tts3)"
+    default False
+
+    config SR_WN_WN9_HAI1XIAO3OU1_TTS3
+    bool "嗨小欧 (wn9_hai1xiao3ou1_tts3)"
+    default False
+
+    config SR_WN_WN9_XIAO3JIA1XIAO3JIA1_TTS3
+    bool "小珈小珈 (wn9_xiao3jia1xiao3jia1_tts3)"
+    default False
+
+    config SR_WN_WN9_XIAO3FENG1XIAO3FENG1_TTS3
+    bool "小峰小峰 (wn9_xiao3feng1xiao3feng1_tts3)"
     default False
 endmenu
 
