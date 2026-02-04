@@ -185,7 +185,7 @@ menu "Load Multiple Wake Words (WakeNet9)"
     default False
 
     config SR_WN_WN9_HILUKI
-    bool "Hi/嗨 (wn9_hiluki_)"
+    bool "Hi/嗨 Luki (wn9_hiluki_)"
     default False
 
     config SR_WN_WN9_HITELLY_TTS
